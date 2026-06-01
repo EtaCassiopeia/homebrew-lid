@@ -7,18 +7,18 @@ class LidTooling < Formula
   on_macos do
     on_arm do
       url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.2.0/lid-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a11d60e2c09f19d95fcaf6017dacf2dd7766f67efe7a850668e511af0cc00084"
+      sha256 "e81eaca0f110938c770c0d29215978eccd988358e450b200380e085eb1f70c1b"
     end
     on_intel do
       url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.2.0/lid-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "28ffdaa56640431a7761f89a1710c2b9d78fb43c9b443e3931c2a7951ffd0f92"
+      sha256 "d911cecfb462caf4baaedc5db87b387ed627ff0f98d8bccf50eded1bfbd48198"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.2.0/lid-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "71c0a2d2b05c7030e7db4f43d598956258a69c2eea682e7dc3f2c1d618f36ee1"
+      sha256 "297f5a30ba6c2c36fc83722df1ed67ef61afc48f629ad73725e91670fc471799"
     end
   end
 
