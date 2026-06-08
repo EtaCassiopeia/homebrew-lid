@@ -1,28 +1,28 @@
 class LidTooling < Formula
   desc "CLI and MCP server for Linked-Intent Development"
   homepage "https://github.com/EtaCassiopeia/lid-tooling"
-  version "0.2.5"
+  version "0.3.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.2.5/lid-v0.2.5-aarch64-apple-darwin.tar.gz"
-      sha256 "7ec63505fb8332037fdaadd4c64dd677ebd3cb02b3b08f7c8853aa4d8e20430f"
+      url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.3.0/lid-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5841c0e3431b8a0d3fd0a30013dda1a7e4d227e841a895d193162129d3603089"
     end
     on_intel do
-      url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.2.5/lid-v0.2.5-x86_64-apple-darwin.tar.gz"
-      sha256 "c2988587aa9e607c3952ab53f089172c05637ea20f04b2b1cc4f45dc2d75672c"
+      url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.3.0/lid-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d37f639b7304f998f133d5a4c47c3043695a5700fdff4cd103bf3de7ff461c62"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.2.5/lid-v0.2.5-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b299ec72b59b3d9b689089e64f3955586186345315c692bd623a5fab135ddb47"
+      url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.3.0/lid-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bb953aa44d7def382328528ed3cfdf4569dd0f620de3888abdd8087d7b00d364"
     end
     on_arm do
-      url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.2.5/lid-v0.2.5-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2b2c7f6b4f7dbdab2b8213437af4f24fd09ed7f40579d96d840554892c7cb41f"
+      url "https://github.com/EtaCassiopeia/lid-tooling/releases/download/v0.3.0/lid-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "08baec165070140e76d8dd1eb11f5d0212245a3d8d1f68a00becbff2d2e5fa49"
     end
   end
 
